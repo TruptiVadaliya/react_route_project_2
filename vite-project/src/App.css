@@ -10,7 +10,7 @@
 
 html {
   font-size: 62.5%;
-  font-family: "urbanist";
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -41,6 +41,7 @@ li {
 
 a {
   color: #000;
+  text-decoration: none;
 
   &:hover {
     color: #2e86c1;
@@ -79,7 +80,7 @@ button {
 }
 
 .grid {
-  display: flex;
+  display: grid;
 }
 
 .grid-two-cols {
@@ -105,6 +106,7 @@ header {
 }
 
 .navbar-grid {
+  display: grid;
   grid-template-columns: 0.5fr 1fr;
   align-items: center;
   height: 10rem;
@@ -124,4 +126,56 @@ nav ul {
 
 .ham-menu {
   display: none;
+}
+
+
+
+
+
+
+
+
+
+.hero-section .container {
+  padding: 3.2rem;
+  margin: 9rem auto;
+  gap: 6.4rem;
+}
+
+.paragraph {
+  margin: 3.2rem 0;
+}
+
+.heading-xl {
+  font-family: inherit;
+  font-size: clamp(5.2rem, 6vw, 4.241rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -1px;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .banner-image {
+  width: 100%;
+}
+
+
+@media screen and (max-width:990px) {
+  .banner-column {
+    flex-direction: column;
+  }
+
+  .hero-content {
+    order: 1;
+  }
+
+  .container .banner-image {
+    width: 80%;
+    order: 0;
+  }
 }
