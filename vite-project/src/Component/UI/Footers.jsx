@@ -7,6 +7,8 @@ export const Footers = () => {
 
     const footerIcon = {
         MdPlace: <MdPlace />,
+        IoCallSharp: <IoCallSharp />,
+        TbMailPlus: <TbMailPlus />,
     }
 
     return (
@@ -17,7 +19,7 @@ export const Footers = () => {
 
                     return (
                         <div className="footer-contact" key={index}>
-                            <div className="icon">{footerIcon.MdPlace}</div>
+                            <div className="icon">{footerIcon[icon] || null}</div>
                             <div className="footer-contact-text">
                                 <p>{title}</p>
                                 <p>{details}</p>

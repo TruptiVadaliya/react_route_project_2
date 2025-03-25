@@ -322,19 +322,3 @@ textarea {
 textarea.form-control {
   resize: vertical;
 }
-
-button {
-  width: 100%;
-  padding: 12px;
-  background: #313c48;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-size: 18px;
-  cursor: pointer;
-  transition: background 0.3s ease-in-out;
-}
-
-button:hover {
-  background: #141c25;
-}
