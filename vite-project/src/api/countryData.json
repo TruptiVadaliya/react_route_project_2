@@ -4,14 +4,14 @@
         "countryName": "USA",
         "capital": "Washington, D.C.",
         "population": 331002651,
-        "interestingFact": "The USA has the world's largest economy."
+        "interestingFact":"Alaska is the largest state and is bigger than Texas, California, and Montana combined."
     },
     {
         "id": 2,
         "countryName": "Canada",
         "capital": "Ottawa",
         "population": 38005238,
-        "interestingFact": "Canada has more lakes than the rest of the world combined."
+        "interestingFact":"Canada has more lakes than the rest of the world combined."
     },
     {
         "id": 3,
@@ -25,7 +25,7 @@
         "countryName": "India",
         "capital": "New Delhi",
         "population": 1408044253,
-        "interestingFact": "India has the world's second-largest population."
+        "interestingFact": "India has the wettest inhabited place on Earth, Mawsynram."
     },
     {
         "id": 5,
@@ -46,7 +46,7 @@
         "countryName": "France",
         "capital": "Paris",
         "population": 67987000,
-        "interestingFact": "France is the most visited country in the world."
+        "interestingFact":  "The French Army was the first to use camouflage in World War I."
     },
     {
         "id": 8,
@@ -54,19 +54,5 @@
         "capital": "Berlin",
         "population": 83743000,
         "interestingFact": "Germany is known for its high-speed Autobahn, with no speed limit in some areas."
-    },
-    {
-        "id": 9,
-        "countryName": "South Africa",
-        "capital": "Pretoria",
-        "population": 59392000,
-        "interestingFact": "South Africa has three capital cities."
-    },
-    {
-        "id": 10,
-        "countryName": "Egypt",
-        "capital": "Cairo",
-        "population": 112716599,
-        "interestingFact": "Egypt is home to the Great Pyramid of Giza, one of the Seven Wonders of the Ancient World."
     }
-] 
+]
