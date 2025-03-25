@@ -270,10 +270,71 @@ nav ul {
   padding-bottom: 8px;
 }
 
-.card-description{
+.card-description {
   font-weight: 600;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.5);
   font-size: 16px;
   max-width: 470px;
+}
+
+.section-contact {
+  padding: 50px 20px;
+  background-color: black;
+}
+
+.container-title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.contact-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #707070;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #807e7e;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.form-control,
+input,
+textarea {
+  background-color: #2b2a2a;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: #313c48;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background: #141c25;
 }
