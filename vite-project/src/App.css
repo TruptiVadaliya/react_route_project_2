@@ -343,9 +343,9 @@ textarea.form-control {
   gap: 25px;
 }
 
-  .grid-three-cols {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  }
+.grid-three-cols {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
 
 .footer-contact {
   background: rgba(255, 255, 255, 0.1);
