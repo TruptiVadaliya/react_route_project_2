@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 
 export const Footers = () => {
     const footerIcon = {
-        MdPlace: MdPlace,  // Store the actual component
+        MdPlace: MdPlace,
         IoCallSharp: IoCallSharp,
         TbMailPlus: TbMailPlus,
     };
@@ -15,10 +15,10 @@ export const Footers = () => {
         <footer className="footer-section">
             <div className="container grid grid-three-cols">
                 {(footerContact || []).map(({ icon, title, details }, index) => {
-                    const IconComponent = footerIcon[icon]; // Retrieve the component
+                    const IconComponent = footerIcon[icon];
                     return (
                         <div className="footer-contact" key={index}>
-                            <div className="icon">
+                            <div className="icon" style={{color:"white"}}>
                                 {IconComponent ? <IconComponent /> : <span className="text-red-500">Invalid Icon</span>}
                             </div>
                             <div className="footer-contact-text">
