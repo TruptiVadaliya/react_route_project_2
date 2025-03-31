@@ -1,7 +1,7 @@
 import { useEffect, useState, useTransition } from "react";
 import { getCountryData } from "../api/postApi";
 import { Loader } from "../Component/UI/Loader";
-import CountryCard from "../Component/Layout/CountryCard";
+import { CountryCard } from "../Component/Layout/CountryCard";
 
 
 export const Country = () => {
@@ -29,8 +29,7 @@ export const Country = () => {
       <ul className="grid grid-four-cols">
         {countries.map((curCountry, index) => (
           <CountryCard
-            key={curCountry.id || curCountry.cca3 || curCountry.name?.common || `country-${index}`}
-            country={curCountry}
+            country={curCountry} key={index}
           />
         ))}
       </ul>
