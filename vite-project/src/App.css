@@ -184,6 +184,7 @@ nav ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3.2rem;
+  padding-bottom: 40px;
 }
 
 @media screen and(max-width:991px) {
@@ -424,7 +425,7 @@ textarea.form-control {
   list-style: none;
   border-radius: 12px;
   overflow: hidden;
-  background: #1c1c1c; /* Dark background */
+  background: #1c1c1c;
   box-shadow: 3px 5px 15px rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease-in-out;
 }
@@ -439,7 +440,7 @@ textarea.form-control {
   flex-direction: column;
   align-items: center;
   padding: 15px;
-  background: #2b2b2b; /* Slightly lighter dark background */
+  background: #2b2b2b;
   border-radius: 12px;
   text-align: center;
 }
@@ -450,7 +451,7 @@ textarea.form-control {
   height: 160px;
   object-fit: cover;
   border-radius: 8px;
-  border: 3px solid #444; /* Subtle border */
+  border: 3px solid #444;
 }
 
 .countryInfo {
@@ -460,20 +461,20 @@ textarea.form-control {
 .card-title {
   font-size: 20px;
   font-weight: bold;
-  color: #f1c40f; /* Golden text for contrast */
+  color: #f1c40f;
   margin-bottom: 6px;
 }
 
 .card-description {
   font-weight: 700;
-  color: #bdc3c7; /* Light gray for labels */
+  color: #bdc3c7;
   display: inline-block;
   min-width: 80px;
 }
 
 p {
   font-size: 14px;
-  color: #ecf0f1; /* Light text color */
+  color: #ecf0f1;
   margin: 4px 0;
 }
 
@@ -483,5 +484,5 @@ p {
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   gap: 25px;
   padding: 20px;
-  background: #121212; /* Dark background for the section */
+  background: #121212;
 }

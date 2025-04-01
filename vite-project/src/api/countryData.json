@@ -11,7 +11,7 @@
         "countryName": "Canada",
         "capital": "Ottawa",
         "population": 38005238,
-        "interestingFact":"Canada has more lakes than the rest of the world combined."
+        "interestingFact":"Canada has more lakes than the rest of the world combined axnOxadaidawind."
     },
     {
         "id": 3,
@@ -32,14 +32,14 @@
         "countryName": "Brazil",
         "capital": "Brasília",
         "population": 216422446,
-        "interestingFact": "Brazil is home to the Amazon Rainforest, the world's largest tropical forest."
+        "interestingFact": "Brazil is home to the Amazon Rainforest, the world's largest tropical."
     },
     {
         "id": 6,
         "countryName": "Japan",
         "capital": "Tokyo",
         "population": 125360000,
-        "interestingFact": "Japan has the world's oldest company, which has been operating since 578 AD."
+        "interestingFact": "Japan has the world's oldest company, which has been operating."
     },
     {
         "id": 7,
@@ -53,6 +53,6 @@
         "countryName": "Germany",
         "capital": "Berlin",
         "population": 83743000,
-        "interestingFact": "Germany is known for its high-speed Autobahn, with no speed limit in some areas."
+        "interestingFact": "Germany is known for its high-speed Autobahn, with no speed limit in."
     }
 ]
