@@ -4,7 +4,7 @@ export const CountryCard = ({ country }) => {
     const { flags, name, population, region, capital } = country;
 
     return (
-        <li className="country-card card">
+        <div className="country-card card">
             <div className="container-card bg-white-box">
                 <img src={flags.png} alt={flags.alt} />
 
@@ -23,12 +23,12 @@ export const CountryCard = ({ country }) => {
                         {capital[0]}
                     </p>
                     <NavLink to={`/country/${name.common}`}>
-                        <button className="btn btn-darken btn-inline bg-white-box">
+                        <button onClick={() => console.log("clicked======")} className="btn btn-darken btn-inline bg-white-box">
                             Read More
                         </button>
                     </NavLink>
                 </div>
             </div>
-        </li>
+        </div>
     )
 }

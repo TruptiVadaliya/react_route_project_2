@@ -16,7 +16,7 @@ export const CountryDetails = () => {
                 const res = await getCountryIndData(params.id);
                 setCountry(res);
 
-                console.log(res);
+                console.log("res");
 
 
             } catch (err) {

@@ -230,7 +230,7 @@ nav ul {
 .bg-white-box::after,
 .bg-yellow-box::after,
 .bg-blue-box::after {
-  position: absolute;
+  /* position: absolute; */
   top: -1px;
   bottom: -1px;
   left: -1px;
