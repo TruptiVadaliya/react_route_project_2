@@ -2,7 +2,6 @@ import { useEffect, useState, useTransition } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { getCountryIndData } from "../../api/postApi";
 import { Loader } from "../UI/Loader";
-import "./CountryDetails.css";
 
 export const CountryDetails = () => {
     const params = useParams();

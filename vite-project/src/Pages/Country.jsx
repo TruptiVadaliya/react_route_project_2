@@ -34,11 +34,11 @@ export const Country = () => {
   });
 
 
-  
+
   return (
     <section className="country-section">
-      <SearchFilter search={search} setSearch={setSearch} filter={filter} setFilter={setFilter} />
-      
+      <SearchFilter search={search} setSearch={setSearch} filter={filter} setFilter={setFilter} countries={countries} setCountries={setCountries} />
+
       {filteredCountries.length > 0 ? (
         <ul className="grid grid-four-cols">
           {filteredCountries.map((curCountry, index) => (
