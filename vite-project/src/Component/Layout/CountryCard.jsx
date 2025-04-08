@@ -23,7 +23,7 @@ export const CountryCard = ({ country }) => {
                         {capital[0]}
                     </p>
                     <NavLink to={`/country/${name.common}`}>
-                        <button onClick={() => console.log("clicked======")} className="btn btn-darken btn-inline bg-white-box">
+                        <button className="btn btn-darken btn-inline bg-white-box">
                             Read More
                         </button>
                     </NavLink>
